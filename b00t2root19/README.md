@@ -18,4 +18,4 @@ FB event https://www.facebook.com/b00t2root
 
 ## Write-ups
 
-* cuz_rsa_is_lub (https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/b00t2root19/Crypto/cuz_rsa_is_lub)
+* [cuz_rsa_is_lub] (https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/b00t2root19/Crypto/cuz_rsa_is_lub)
