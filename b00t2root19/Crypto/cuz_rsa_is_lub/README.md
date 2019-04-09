@@ -1,7 +1,7 @@
 ## Description
 * **Name:**  cuz_rsa_is_lub
 * **Author:** Akir4
-* **Artifact:** https://drive.google.com/open?id=1IXFbLc09QnJ-97whl2o8HLfinHpLdvjQ
+* **Artifact:** [Link](https://drive.google.com/open?id=1IXFbLc09QnJ-97whl2o8HLfinHpLdvjQ)
 * **Points:** 50
 * **Tag:** Crypto
 
