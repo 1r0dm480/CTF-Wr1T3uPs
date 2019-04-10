@@ -1,13 +1,16 @@
 ## Description
-* **Name:**  key_me_baby
+* **Name:**  loopback
 * **Author:** Akir4
-* **Artifact:** [Link](https://drive.google.com/open?id=1yO4j-7CEr2lvl3n7kkqGLSBNqsZlhmL_)
-* **Points:** 159
+* **Artifact:** [Link](https://drive.google.com/open?id=id=1VeWCh2GK5RcAowBQLZECEwB5dAvvmInh
+)
+* **Points:** 268
 * **Tag:** Forensics
 
 <p align="center">
-<img src="key_me_baby.png"/>
+<img src="loopback.png"/>
 </p>
+
+
 
 ## Tools
 * Firefox Version 60.5.1 https://www.mozilla.org/en-US/firefox/60.5.1/releasenotes/
@@ -17,131 +20,78 @@
 ## Writeup
 
 ```bash
-root@1v4n:~/CTF/b002root19/Forensics# mkdir key_me_baby
-root@1v4n:~/CTF/b002root19/Forensics# cd key_me_baby
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby# gdown
-oot@1v4n:~/CTF/b002root19/Forensics/key_me_baby# gdown https://drive.google.com/uc?id=1yO4j-7CEr2lvl3n7kkqGLSBNqsZlhmL_
+root@1v4n:~/CTF/b002root19/Forensics/loopback# gdown https://drive.google.com/uc?id=1VeWCh2GK5RcAowBQLZECEwB5dAvvmInh
 Downloading...
-From: https://drive.google.com/uc?id=1yO4j-7CEr2lvl3n7kkqGLSBNqsZlhmL_
-To: /root/CTF/b002root19/Forensics/key_me_baby_GRANTED/data.pcapng
-100%|█████████████████████████████████████████████████████████████| 36.7k/36.7k [00:00<00:00, 4.14MB/s]
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby_GRANTED# file data.pcapng
-data.pcapng: pcap-ng capture file - version 1.0
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby_GRANTED# tshark -r data.pcapng -Y "usb.bus_id == 1 && usb.device_address == 71 && usb.transfer_type == 0x01" -T fields -e usb.capdata
-Running as user "root" and group "root". This could be dangerous.
+From: https://drive.google.com/uc?id=1VeWCh2GK5RcAowBQLZECEwB5dAvvmInh
+To: /root/CTF/b002root19/Forensics/loopback/loopback.pcapng
+100%|██████████████████████████████████████████████████████████████████████████████████████| 324k/324k [00:00<00:00, 1.81MB/s]
 
-00:00:00:00:00:00:00:00
+root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED# file loopback.pcapng
+loopback.pcapng: pcap-ng capture file - version 1.0
 
-
-00:00:00:00
-
-00:00:05:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:27:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:27:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:17:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:1f:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:15:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:12:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:12:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:17:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:2f:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:06:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:04:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:13:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:17:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:18:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:15:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:08:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:17:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:0b:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:08:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:0e:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:08:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:1c:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-00:00:30:00:00:00:00:00
-
-00:00:00:00:00:00:00:00
-
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby# nano get_flag.sh
-
-#! /bin/bash
-
-tshark -r data.pcapng -Y "usb.bus_id == 1 && usb.device_address == 71 && usb.transfer_type == 0x01" -T fields -e usb.capdata | sed '/^$/d;s/[[:blank:]]//g' > captured.txt && python2 bkeymap20.py > flag
-
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby# chmod +x get_flag.sh
-root@1v4n:~/CTF/b002root19/Forensics/key_me_baby# cat flag
-b00t2root[capturethekey]
+root@1v4n:~/CTF/b002root19/Forensics/loopback# wireshark loopback.pcapng
 ```
+We need to reconstruct the binary data. Using Wireshark we select in the loopback.pcapng Analyze> Follow> TCP Stream>
+
+<p align="center">
+<img src="loopback_wireshark_follow_tcp.png"/>
+</p>
+
+We apply visualization filter so that only the selected flow packets are shown from 127.0.1.1:6004> 127.0.0.1:59690
+
+<p align="center">
+<img src="loopback_wireshark_filter.png"/>
+</p>
+
+We started to extract this data. Select the option Unformatted and Save as to export the binary data> loopback.raw "loopback.raw".
+
+<p align="center">
+<img src="loopback_wireshark_extract.png"/>
+</p>
+
+
+```bash
+root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED# file loopback.raw
+loopback.raw: PC bitmap, Windows 98/2000 and newer format, 300 x 300 x 24
+
+Hint
+
+root@1v4n:~/CTF/b002root19/Forensics/loopback# strings loopback.raw | grep "B00t2root{.*"
+B00t2root{i_am_the_flag_format}
+
+root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED# foremost -v -i loopback.raw
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Apr 10 15:21:12 2019
+Invocation: foremost -v -i loopback.raw
+Output directory: /root/CTF/b002root19/Forensics/loopback_GRANTED/output
+Configuration file: /etc/foremost.conf
+Processing: loopback.raw
+|------------------------------------------------------------------
+File: loopback.raw
+
+Length: 263 KB (270169 bytes)
+
+Num      Name (bs=512)         Size      File Offset     Comment
+
+0:      00000000.bmp         263 KB               0       (300 x 300)
+*|
+1 FILES EXTRACTED
+
+bmp:= 1
+------------------------------------------------------------------
+
+Foremost finished at Wed Apr 10 15:21:12 2019
+root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED/output/bmp# file 00000000.bmp
+00000000.bmp: PC bitmap, Windows 98/2000 and newer format, 300 x 300 x 24
+
+root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED/output/bmp# gimp 00000000.bmp
+´´´
+<p align="center">
+<img src="loopback_gimp_rortate_flag.png"/>
+</p>
 
 ### Flag
 
-`b00t2root[capturethekey]`
+`b00t2root{am_the_1}`
