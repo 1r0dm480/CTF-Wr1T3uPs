@@ -63,9 +63,9 @@ root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED# foremost -v -i loopback.r
 Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
 Audit File
 
-Foremost started at Wed Apr 10 15:21:12 2019
+Foremost started at
 Invocation: foremost -v -i loopback.raw
-Output directory: /root/CTF/b002root19/Forensics/loopback_GRANTED/output
+Output directory: /root/CTF/b002root19/Forensics/loopback/output
 Configuration file: /etc/foremost.conf
 Processing: loopback.raw
 |------------------------------------------------------------------
@@ -83,11 +83,11 @@ bmp:= 1
 ------------------------------------------------------------------
 
 Foremost finished at Wed Apr 10 15:21:12 2019
-root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED/output/bmp# file 00000000.bmp
+root@1v4n:~/CTF/b002root19/Forensics/loopback/output/bmp# file 00000000.bmp
 00000000.bmp: PC bitmap, Windows 98/2000 and newer format, 300 x 300 x 24
 
-root@1v4n:~/CTF/b002root19/Forensics/loopback_GRANTED/output/bmp# gimp 00000000.bmp
-´´´
+root@1v4n:~/CTF/b002root19/Forensics/loopback/output/bmp# gimp 00000000.bmp
+```
 <p align="center">
 <img src="loopback_gimp_rortate_flag.png"/>
 </p>
