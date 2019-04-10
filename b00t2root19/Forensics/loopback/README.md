@@ -10,12 +10,12 @@
 <img src="loopback.png"/>
 </p>
 
-
-
 ## Tools
+
 * Firefox Version 60.5.1 https://www.mozilla.org/en-US/firefox/60.5.1/releasenotes/
 * gdown 3.7.4 https://pypi.org/project/gdown/
-* TShark (Wireshark) 2.6.7 https://www.wireshark.org/docs/relnotes/wireshark-2.6.7.html
+* Wireshark 2.6.7 https://www.wireshark.org/docs/relnotes/wireshark-2.6.7.html
+* Foremost 1.5.7 http://foremost.sourceforge.net/
 
 ## Writeup
 
@@ -82,7 +82,7 @@ Num      Name (bs=512)         Size      File Offset     Comment
 bmp:= 1
 ------------------------------------------------------------------
 
-Foremost finished at Wed Apr 10 15:21:12 2019
+Foremost finished at
 root@1v4n:~/CTF/b002root19/Forensics/loopback/output/bmp# file 00000000.bmp
 00000000.bmp: PC bitmap, Windows 98/2000 and newer format, 300 x 300 x 24
 
