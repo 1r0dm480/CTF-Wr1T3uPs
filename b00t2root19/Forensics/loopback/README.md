@@ -89,7 +89,7 @@ root@1v4n:~/CTF/b002root19/Forensics/loopback/output/bmp# file 00000000.bmp
 root@1v4n:~/CTF/b002root19/Forensics/loopback/output/bmp# gimp 00000000.bmp
 ```
 <p align="center">
-<img src="loopback_gimp_rortate_flag.png"/>
+<img src="loopback_gimp_rotate_flag.png"/>
 </p>
 
 ### Flag
