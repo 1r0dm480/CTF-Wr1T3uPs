@@ -1,7 +1,7 @@
 ## Description
 * **Name:**  loopback
 * **Author:** Akir4
-* **Artifact:** [Link](https://drive.google.com/open?id=id=1VeWCh2GK5RcAowBQLZECEwB5dAvvmInh
+* **Artifact:** [Link](https://drive.google.com/open?id=1VeWCh2GK5RcAowBQLZECEwB5dAvvmInh
 )
 * **Points:** 268
 * **Tag:** Forensics
