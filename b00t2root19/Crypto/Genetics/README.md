@@ -107,7 +107,7 @@ def decode_dna( string ):
 string = 'ACCAGTAAAACGTTGAGACAGTTGAATATCAAACTACACCGAATTCATATGTCACAGCGGCCGACACAGATGATAACA'
 print decode_dna(strin
 ```
-Ejecutamos el script y conseguimos la Flag
+Run our script and here is the Flag
 
 ```bash
 root@1v4n:~/CTF/b002root19/Crypto/Genetics_GRANTED# python dna_solver.py
