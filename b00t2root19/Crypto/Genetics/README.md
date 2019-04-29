@@ -16,7 +16,9 @@
 
 ## Writeup
 
-We have a file called Biography.txt w/ next plaintext `ACCAGTAAAACGTTGAGACAGTTGAATATCAAACTACACCGAATTCATATGTCACAGCGGCCGACACAGATGATAACA` encoded in DNA codes. We observe four letters A (Adenine), C (Cytosine), G (Guanine) and T (Thymine) that are repeated in the message and represent the four main bases found in DNA. We investigated studies on steganography with DNA markers. We find http://www.polestarltd.com/ttg/isspeeches/051403/ and https://github.com/JohnHammond/ctf-katana/blob/master/img/dna_codes.png
+* We have a file called Biography.txt w/ next plaintext > `ACCAGTAAAACGTTGAGACAGTTGAATATCAAACTACACCGAATTCATATGTCACAGCGGCCGACACAGATGATAACA` encoded in DNA codes.
+
+* We observe four letters A (Adenine), C (Cytosine), G (Guanine) and T (Thymine) that are repeated in the message and represent the four main bases found in DNA. We investigated studies on steganography with DNA markers and find http://www.polestarltd.com/ttg/isspeeches/051403/ and https://github.com/JohnHammond/ctf-katana/blob/master/img/dna_codes.png
 
 <p align="center">
 <img src="dna_codes.png"/>
@@ -116,4 +118,4 @@ flag is dnaCrypto1sAwesome
 
 ### Flag
 
-`b00t2root{dnaCrypto1sAwesome}`
+`b00t2root{dnaCrypto1sAwesome}
