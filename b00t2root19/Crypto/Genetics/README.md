@@ -27,6 +27,8 @@
 Python mapping of DNA codons
 
 ```python
+#!/usr/bin/env python
+
 mapping = {
 
 		'AAA': 'a',
@@ -100,14 +102,13 @@ def decode_dna( string ):
 	pieces = []
 	for i in range( 0, len(string), 3 ):
 		piece =  string[i:i+3]
-		# pieces.append()
 		pieces.append( mapping[piece] )
 
 	return "".join(pieces)
 
 
 string = 'ACCAGTAAAACGTTGAGACAGTTGAATATCAAACTACACCGAATTCATATGTCACAGCGGCCGACACAGATGATAACA'
-print decode_dna(strin
+print decode_dna(string)
 ```
 Run our script and here is the Flag
 
