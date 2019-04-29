@@ -119,4 +119,4 @@ flag is dnaCrypto1sAwesome
 
 ### Flag
 
-`b00t2root{dnaCrypto1sAwesome}
+`b00t2root{dnaCrypto1sAwesome}`
