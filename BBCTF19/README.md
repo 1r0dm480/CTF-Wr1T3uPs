@@ -18,3 +18,4 @@ CTF Time https://ctftime.org/event/792
 ## Write-ups
 
 * [RivestShamirAdleman](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/BBCTF19/crypto/RivestShamirAdleman)
+[oldschool](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/BBCTF19/crypto/oldschool)
