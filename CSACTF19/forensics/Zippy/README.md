@@ -11,7 +11,7 @@
 ## Tools
 * Firefox Version 60.5.1 https://www.mozilla.org/en-US/firefox/60.5.1/releasenotes/
 * [N]Curses Hexedit 0.9.7 http://www.rogoyski.com/adam/programs/hexedit/
-* 7zip https://www.7-zip.org/7z.html
+* UnZip 6.00 http://infozip.sourceforge.net/UnZip.html
 
 
 ## Writeup
