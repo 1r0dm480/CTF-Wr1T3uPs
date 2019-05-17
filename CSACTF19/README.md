@@ -11,3 +11,4 @@ CTF Time https://ctftime.org/event/802
 ## Write-ups
 
 * [Linux 1](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/CSACTF19/misc/linux1)
+* [Zippy](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/CSACTF19/forensics/Zippy)

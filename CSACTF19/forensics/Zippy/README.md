@@ -40,11 +40,10 @@ File: flag.zip                                                                  
 000000A0  E8 03 00 00  50 4B 05 06   00 00 00 00  01 00 01 00                                                 ....PK..........
 000000B0  4E 00 00 00  56 00 00 00   00 00                                                                    N...V.....
 ```
-`We modified the [file signature](http://petlibrary.tripod.com/ZIP.HTM) of 00 00 00 00 > 50 4B 03 04 and saved it as flag_repair.zip
+We modified the [file signature](http://petlibrary.tripod.com/ZIP.HTM) of 00 00 00 00 > 50 4B 03 04 and saved it as flag_repair.zip
 <p align="center">
 <img src="flag_sigs_zip.png"/>
-</p>`
-
+</p>
 ```bash
 File: flag.zip                                                                  ASCII Offset: 0x00000004 / 0x000000B9 (%02)  M
 00000000  50 4B 03 04  14 00 02 00   08 00 CA 90  7C 4E 2B 7D                                                 PK..........|N+}
@@ -72,7 +71,6 @@ cat: flag.: No existe el fichero o el directorio
 root@1v4n:~/CTF/CSACTF19/forensics/zippy# cat flag.txt
 CSACTF{z1ppy_z1p_z1p}
 ```
-
 ### Flag
 
 `CSACTF{z1ppy_z1p_z1p}`
