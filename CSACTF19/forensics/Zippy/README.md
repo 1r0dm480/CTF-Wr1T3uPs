@@ -40,10 +40,10 @@ File: flag.zip                                                                  
 000000A0  E8 03 00 00  50 4B 05 06   00 00 00 00  01 00 01 00                                                 ....PK..........
 000000B0  4E 00 00 00  56 00 00 00   00 00                                                                    N...V.....
 ```
-`We modified the [file signature](http://petlibrary.tripod.com/ZIP.HTM) of 00 00 00 00 > 50 4B 03 04 and saved it as flag_repair.zip`
-`<p align="center">
-<img src="flag_sigs_zip.png"/>
-</p>`
+We modified the [file signature](http://petlibrary.tripod.com/ZIP.HTM) of 00 00 00 00 > 50 4B 03 04 and saved it as flag_repair.zip
+<p align="center">
+<img src="file_sigs_zip.png"/>
+</p>
 
 ```bash
 File: flag.zip                                                                  ASCII Offset: 0x00000004 / 0x000000B9 (%02)  M
