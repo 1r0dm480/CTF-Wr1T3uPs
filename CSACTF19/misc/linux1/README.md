@@ -92,7 +92,7 @@ os.remove('temp.txt')
 
 f.close()
 ```
-[Investigating](https://unix.stackexchange.com/questions/101237/how-to-recover-files-i-deleted-now-by-running-rm/101297) the possibility that the running program has the deleted file open, we can recover the file through the file descriptor opened in `/proc/[pid]/fd/[num]`
+[Investigating] (https://unix.stackexchange.com/questions/101237/how-to-recover-files-i-deleted-now-by-running-rm/101297) the possibility that the running program has the deleted file open, we can recover the file through the file descriptor opened in `/proc/[pid]/fd/[num]`
 
 ```bash
 user@4ccc23ce0216:~$ lsof | grep "/home/user/"
