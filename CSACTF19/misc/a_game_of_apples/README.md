@@ -45,10 +45,10 @@ done
 ```
 We execute the script in bash and in seconds we have our flag;)
 ```bash
-root@1v4n:~/CTF/CSACTF19/misc/gameofapples_GRANTED# ./get_flag.sh
+root@1v4n:~/CTF/CSACTF19/misc/gameofapples# ./get_flag.sh
 Good job. You won. Here's the flag: CSACTF{0n3_4ppl3_tw0_4ppl3_thr33_4ppl3}
 ^C
-root@1v4n:~/CTF/CSACTF19/misc/gameofapples_GRANTED#
+root@1v4n:~/CTF/CSACTF19/misc/gameofapples#
 ```
 
 ### Flag
