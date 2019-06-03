@@ -193,7 +193,7 @@ b2,bgr,msb,Yx,prime .. text: "Wu]_}u}}UW"
 þÿþþÿþþþþÿþþþÿþþÿþþþþÿþþÿþþÿþþÿþþÿþþÿþþþþþÿþþÿÿþÿþþÿþþÿþþÿÿþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþþÿþþÿþþþþÿþþÿþþÿþþþÿþþÿþÿþþÿþþÿÿþÿþþÿÿþÿþþÿÿþÿÿþÿþþÿþþÿþþÿþþþÿþÿþþÿþþÿþþÿþþÿÿþþþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿþþÿÿþÿþþÿþþÿþþÿÿþÿþþÿþ
 ...
 ```
-Localizamos el repositorio de la herramienta “appa” con una simple búsqueda en google desde el terminal en https://github.com/stncal/appa
+We locate the repository of the tool "appa" with a simple google search from the terminal at https://github.com/stncal/appa
 
 ```bash
 root@1v4n:~/CTF/CSACTF19/misc/stephanography# google site:github.com "stncal" "appa" steganography
