@@ -2,7 +2,7 @@
 
 ***JASYP Interferencias CTF 2019***  a Jeopardy-Style CTF.
 * Started on Apr 26, 2019 - Apr 27, 2019
-* Duration: 1 days
+* Duration: 1 day
 * Organized: Inter_ferencias (https://twitter.com/inter_ferencias ) y #HackingDesdeCero (https://twitter.com/hashtag/hackingdesdecero)
 * Flag format: *flag* unless otherwise specified *JASYP{flag}*
 
