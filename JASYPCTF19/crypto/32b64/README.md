@@ -23,10 +23,9 @@ Vm0wd2QyUXlVWGxWV0d4V1YwZDRWMVl3WkRSV01WbDNXa1JTVjAxV2JETlhhMUpUVmpBeFYySkVUbGho
 VlZkemVGWXhaSFZWYXpWWFVtdHdXRlpHV2xabFJUVkhWMnRvVDFack5WaFVWM1JYVGxaYVdHVklUbGhpVlhCYVdWVmtiMVl5UlhoalNIQmFUVzVvY2xwRldrdGtSMDVIVkcxc1UySnJSWGxXYlRFMFlUQTFTRkpZYUdGU1YxSlpXVzF6TVdOV1ZuTmFSemxZVW14S1dWa3dWbXRXUmtwMFpVWmFWbFp0YUhaV1ZFWmhZMjFPU1dKR2NGZFdia0Y2Vm10a05GTXlVbGRTYmxKUVZtMVNUMVp0TlVOaU1WcFpZMFZrYUUxVmJEUldNalZYVmxkS1dHRkdVbHBoTVhBelZqRmFZVkl4Vm5KYVJsSnBWbXh3TmxacVNqUldNVlowVTJ4YVdHSkhhR0ZaYTFwM1lVWlplRmR0Um10U01VcEpWREZrYjFSc1dsbFJXR1JYWWtkU05sUnNXbHBsVms1elZteEtWMUpWY0c5V2JURTBaREpHUjJORldsZFhSMmhZVm0xMFlXVldVWGhYYXpsb1ZtdHNObGRVVG10V01rcFpVV3QwVlZac2NGTmFWbHBMWkZaU2MxVnRiR2xTV0VJeVZteGpkMlZIU1hoaVJtUnBVbXhhVkZsdE1WTlhWbFowWlVWMGJGWnNiRFZhVldRd1lVZEdObEpzY0ZaV00xSnlWakJrUm1WR1dsVlNiSEJYVmpGS1dWZFVTalJoTWs1elkwVmtZVkpyTlhCVmJUVkRWbFpaZVdSR1RsTk5WVlkwVm0wMVQxVnRTa2RYYXpsV1lURktRMVF4UlRsUVVUMDk=
 root@1v4n:~/CTF/JASYPCTF2019/crypto/32b64_GRANTED# nano get_flag.sh
 
-
 #!/bin/bash
 
-cat cipher.txt | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | ba$
+cat cipher.txt | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d
 
 
 root@1v4n:~/CTF/JASYPCTF2019/crypto/32b64# chmod +x get_flag.sh
