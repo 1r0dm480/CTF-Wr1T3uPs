@@ -12,5 +12,5 @@ Post twitter https://twitter.com/Inter_ferencias/status/1092030539337551872
 
 ## Write-ups
 
-* [Nice port](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/forensic/nice_port) 
-* [Cuantas contraseñas] Pending publication
+* [Nice port](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/forensic/nice_port)
+* [Cuantas contraseñas](https://github.com/1r0dm480/CTF-Wr1T3uPs/blob/master/JASYPCTF19/forensic/cuantas_contrase%C3%B1as/)
