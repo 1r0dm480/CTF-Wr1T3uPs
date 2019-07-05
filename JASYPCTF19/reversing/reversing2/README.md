@@ -12,7 +12,7 @@
 * GNU strings 2.31.1
 
 ## Writeup
-Descargamos a través del link en la parte inferior izquierda de la pantalla el archivo llamado reverse_me.py (4226de9b85ad25cf7957d7cd06c92eb9) y pasamos a realizar un análisis preliminar:
+Descargamos a través del link en la parte inferior izquierda de la pantalla el archivo llamado reverse_me (230d11cd8fd5839b77f8e33943afb006) y pasamos a realizar un análisis preliminar:
 
 ```bash
 root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing2# file reverse_me
