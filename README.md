@@ -5,6 +5,7 @@ WriteUps/ Walkthroughs for CTF challenges or machines
 
 | Challenge/Machine | Writeup/Walkthrough | MD5 | Posted On |
 | ------------ | ------------ | ------------ | ------------ |
+| [JASYPCTF19-Reversing 2](https://ctf.interferencias.tech/challenges#Reversing%202) | [Writeup-Reversing2-1v4n](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/reversing/reversing2) | [VT URL Scan](https://www.virustotal.com/gui/url/2f50ab0f14b223806b3d8d9322d99764843e9175991885184786b760cad876f6/detection) |  |
 | [HTB-Machines-Netmon](https://www.hackthebox.eu/home/machines/profile/177) |  |  | [Interferencias-HTB Machine Walkthrough: Netmon](https://interferencias.tech/2019/06/30/htb-netmon/) |
 | [JASYPCTF19-Forensics-Cuantas contraseñas](https://ctf.interferencias.tech/challenges#Cuantas%20contrase%C3%B1as) | [Writeup-Forensics-Cuantas contraseñas](https://github.com/1r0dm480/CTF-Wr1T3uPs/blob/master/JASYPCTF19/forensic/cuantas_contrase%C3%B1as/) | [VT URL Scan](https://www.virustotal.com/gui/url/0bcb0ab3f70394db62cc927a673ad2c6233488bb6ebdea32e1e6896a24bdbdd1/detection) | [Honey Sec WRITEUP - JASYP19 - Challenges - Cuantas contraseñas](https://honeysec.blogspot.com/2019/06/writeup-jasyp19-challenges-cuantas.html) |
 | [JASYPCTF19-Forensics-Nice port](https://ctf.interferencias.tech/challenges#Nice%20port) | [Writeup-stephanography-1v4n](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/forensic/nice_port) | [VT URL Scan](https://www.virustotal.com/gui/url/9cb73359a0a23ddcc2317eb5b3d4cf61ffb4c98d96bdd146fbd9d1013d31a594/detection) |  |
