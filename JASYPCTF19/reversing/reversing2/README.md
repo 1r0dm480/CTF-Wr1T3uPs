@@ -22,9 +22,9 @@ root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing2# md5sum reverse_me
 ```
 Examinamos con strings el ejecutable ELF
 
-```strings reverse_me | less
+```bash
+strings reverse_me | less
 ...
-bash
 /lib64/ld-linux-x86-64.so.2
 libc.so.6
 strcpy
