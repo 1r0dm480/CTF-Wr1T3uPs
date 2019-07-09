@@ -40,7 +40,7 @@ root@1v4n:~/CTF/JASYPCTF2019/stego/nosllaman# audacity calling.wav
 <img src="nosllaman_spectro_audacity.png"/>
 </p>
 
-We visited the onlone tool https://unframework.github.io/dtmf-detect/ and played the calling.wav file
+We visited the online tool https://unframework.github.io/dtmf-detect/ and played the calling.wav file
 
 <p align="center">
 <img src="nosllaman_tonos.png"/>
