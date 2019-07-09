@@ -1,6 +1,6 @@
 ## Description
 * **Name:** [Nos llaman](https://ctf.interferencias.tech/challenges#Nos%20llaman)
-* **Points:** 100
+* **Points:** 250
 * **Tag:** Stego
 
 <p align="center">
