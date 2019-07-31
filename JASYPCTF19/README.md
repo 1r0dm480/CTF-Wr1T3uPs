@@ -20,3 +20,4 @@ Post twitter https://twitter.com/Inter_ferencias/status/1092030539337551872
 * [Nos llaman](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/stego/nosllaman)
 * [Perro Maligno](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/stego/perro_maligno)
 * [Gatito Precioso](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/stego/gatito_precioso)
+* [Rollo de papel](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/JASYPCTF19/crypto/rollo_de_papel)
