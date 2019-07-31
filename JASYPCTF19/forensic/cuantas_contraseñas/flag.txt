@@ -1,4 +1,0 @@
-JASYP{32d32c45d8a5141612c6db7313e83486}
-
-Encontró : Hola caracola
-(hash = 32d32c45d8a5141612c6db7313e83486)
