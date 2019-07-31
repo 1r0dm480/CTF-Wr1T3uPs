@@ -111,6 +111,14 @@ root@1v4n:~/CTF/JASYPCTF2019/crypto/rollo_GRANTED/python_cryptanalysis# python b
 <img src="rollo_decipher.png"/>
 </p>
 
+or
+
+We can also solve it with online tools such as https://www.guballa.de/vigenere-solver or https://www.boxentriq.com/code-breaking/vigenere-cipher#tool
+
+<p align="center">
+<img src="rollo_guballa.png"/>
+</p>
+
 ### Flag
 
 `JASYP{25F6AB2E71C3DDB297F8A20B9336C90C}`
