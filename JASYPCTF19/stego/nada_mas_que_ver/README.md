@@ -16,7 +16,7 @@ File Name                       : hdc.jpg
 Directory                       : .
 File Size                       : 50 kB
 File Modification Date/Time     : 2019:04:16 19:36:59+02:00
-File Access Date/Time           : 2019:08:11 20:53:18+02:00
+File Access Date/Time           : 
 File Inode Change Date/Time     : 2019:04:26 22:26:15+02:00
 File Permissions                : rw-r--r--
 File Type                       : JPEG
