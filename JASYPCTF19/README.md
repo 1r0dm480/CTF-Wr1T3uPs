@@ -6,8 +6,8 @@
 * Organized: Inter_ferencias (https://twitter.com/inter_ferencias ) y #HackingDesdeCero (https://twitter.com/hashtag/hackingdesdecero)
 * Flag format: *flag* unless otherwise specified *JASYP{flag}*
 
-CTF Website https://interferencias.tech/jasyp/ctf/
-Post twitter https://twitter.com/Inter_ferencias/status/1092030539337551872
+- CTF Website https://interferencias.tech/jasyp/ctf/
+- Post twitter https://twitter.com/Inter_ferencias/status/1092030539337551872
 
 
 ## Write-ups

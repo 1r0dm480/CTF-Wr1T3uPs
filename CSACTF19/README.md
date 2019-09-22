@@ -6,7 +6,7 @@
 * Organized: 53cur17y4f73rh0ur5 (https://twitter.com/utsacyber )
 * Flag format: *flag* unless otherwise specified *CSACTF{flag}*
 
-CTF Time https://ctftime.org/event/802
+- CTF Time https://ctftime.org/event/802
 
 ## Write-ups
 

@@ -13,7 +13,7 @@
 * Crypto
 * Pwn
 
-CTF Time https://ctftime.org/event/792
+- CTF Time https://ctftime.org/event/792
 
 ## Write-ups
 

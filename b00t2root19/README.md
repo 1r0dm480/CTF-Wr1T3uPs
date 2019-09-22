@@ -3,7 +3,7 @@
 ***b00t2root19***  a Jeopardy-Style CTF.
 * Started on March 29, 2019, 11:00 PM (IST)
 * Duration: 24 hours
-* Organized: NULLKrypt3rs (https://twitter.com/NULLKrypt3rs )
+* Organized: NULLKrypt3rs (https://twitter.com/NULLKrypt3rs)
 * Flag format: *b00t2root* unless otherwise specified *b00t2root{This_i5_our_Flag_forma7}*
 
 ## Challenges :
@@ -13,8 +13,8 @@
 * Crypto
 * Linux
 
-CTF Time https://ctftime.org/event/780
-FB event https://www.facebook.com/b00t2root
+- CTF Time https://ctftime.org/event/780
+- FB event https://www.facebook.com/b00t2root
 
 ## Write-ups
 
