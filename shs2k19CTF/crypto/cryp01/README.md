@@ -6,6 +6,7 @@
 </p>
 
 ## Tools
+
 * Firefox Version 60.8.0 https://www.mozilla.org/en-US/firefox/60.8.0/releasenotes/
 * base64 (GNU coreutils) 8.30 https://manpages.debian.org/stretch/coreutils/base64.1.en.html
 
