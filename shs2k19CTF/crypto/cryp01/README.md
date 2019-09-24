@@ -3,7 +3,7 @@
 * **Tag:** Crypto
 
 <p align="center">
-<img src="shs2k19.png"/>
+<img src="shs2k19ctf.png"/>
 </p>
 
 ## Tools
