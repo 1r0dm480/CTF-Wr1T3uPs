@@ -16,3 +16,5 @@
 * Forensics
 
 ## Write-ups
+
+* [Crypto01](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/shs2k19CTF/crypto/cryp01)
