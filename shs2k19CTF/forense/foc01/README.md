@@ -11,10 +11,10 @@
 * GNU Awk 4.2.1 https://www.gnu.org/software/gawk/
 
 ## Writeup
-We find the source code of an email with base64 encoding `Content-Transfer-Encoding: base64` .
+We find the source code of an email (bac5b9ef3438476a7deb12326bd7a6b2) with base64 encoding `Content-Transfer-Encoding: base64` .
 
 ```bash
-root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# md5sum 01_forense.txt
+root@1v4n:~/CTF/SHS2K19/forense/foc01# md5sum 01_forense.txt
 bac5b9ef3438476a7deb12326bd7a6b2  01_forense.txt
 root@1v4n:~/CTF/SHS2K19/forense/foc01# file 01_forense.txt
 01_forense.txt: SMTP mail, ISO-8859 text, with very long lines, with CRLF line terminators
@@ -61,7 +61,7 @@ We get an image file (fc9827c094779d477cfa3c650350a67d) that hides a code. Where
 root@1v4n:~/CTF/SHS2K19/forense/foc01# cat 01_forense.txt | awk '/Body:/{getline;print}' | base64 -d > output
 root@1v4n:~/CTF/SHS2K19/forense/foc01# file output
 output: JPEG image data, Exif standard: [TIFF image data, little-endian, direntries=0], baseline, precision 8, 600x700, components 3
-root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# strings output |less
+root@1v4n:~/CTF/SHS2K19/forense/foc01# strings output |less
 Exif
 Ducky
 http://ns.adobe.com/xap/1.0/
@@ -95,11 +95,11 @@ shs2k19{m41l_f0r3ns1cs}
 So our solver would fit us
 
 ```bash
-root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# nano get_flag.sh
+root@1v4n:~/CTF/SHS2K19/forense/foc01# nano get_flag.sh
 #! /bin/bash
 
 cat 01_forense.txt | awk '/Body:/{getline;print}' | base64 -d | awk '/o]PCm/{getline;print}' | base64 -d > flag
-root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# cat flag
+root@1v4n:~/CTF/SHS2K19/forense/foc01# cat flag
 shs2k19{m41l_f0r3ns1cs}
 ```
 
