@@ -13,9 +13,9 @@
 
 ## Writeup
 ```bash
-root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# file gatito.jpg
+root@1v4n:~/CTF/JASYPCTF2019/stego/gatito# file gatito.jpg
 gatito.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x720, components 3
-root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# exiftool gatito.jpg
+root@1v4n:~/CTF/JASYPCTF2019/stego/gatito# exiftool gatito.jpg
 ExifTool Version Number         : 11.55
 File Name                       : gatito.jpg
 Directory                       : .
@@ -39,7 +39,7 @@ Color Components                : 3
 Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 1280x720
 Megapixels                      : 0.922
-root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# strings gatito.jpg | grep "JASYP{.*"
+root@1v4n:~/CTF/JASYPCTF2019/stego/gatito# strings gatito.jpg | grep "JASYP{.*"
 JASYP{B09D08A607FBD08BC5C5B6A0E2A3E53E}
 ```
 ### Flag
