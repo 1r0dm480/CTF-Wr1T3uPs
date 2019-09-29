@@ -22,6 +22,7 @@ root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing1# md5sum reverse_me.py
 ```
 Examinamos el script de Python
 root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing1# nano reverse_me.py
+
 ```python
 #!/usr/bin/env python
 
@@ -63,7 +64,8 @@ root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing1# python reverse_me.py AAAA
 Password incorrecta
 ```
 Leyendo el código podemos saltarnos la validación del script a través del siguiente exploit (get_flag.py):
-```python
+
+```bash
 #!/usr/bin/env python
 
 import sys
