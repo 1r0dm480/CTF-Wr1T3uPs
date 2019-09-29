@@ -49,13 +49,13 @@ AWAVI
 AUATL
 []A\A]A^A_
 Password incorrecta
-;*3$"
+...
 GCC: (Debian 6.3.0-18+deb9u1) 6.3.0 20170516
 ...
 root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing2# ./reverse_me AAAA
 Password incorrecta
 ```
-Nuestro ejecutable ELF necesita de un string. Observamos en el anterior examen que 'asdfgh' puede ser un posible candidato para reverlarnos la bandera
+Nuestro ejecutable ELF necesita de un argumento (string). Observamos en el anterior examen que 'asdfgh' puede ser un posible candidato para reverlarnos la bandera
 
 ```bash
 root@1v4n:~/CTF/JASYPCTF2019/reversing/reversing2# chmod +x reverse_me
