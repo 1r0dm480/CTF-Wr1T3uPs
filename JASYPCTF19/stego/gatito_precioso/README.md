@@ -12,7 +12,8 @@
 * GNU strings 2.31.1
 
 ## Writeup
-```root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# file gatito.jpg
+```bash
+root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# file gatito.jpg
 gatito.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 1280x720, components 3
 root@1v4n:~/CTF/JASYPCTF2019/stego/gatito_GRANTED# exiftool gatito.jpg
 ExifTool Version Number         : 11.55
