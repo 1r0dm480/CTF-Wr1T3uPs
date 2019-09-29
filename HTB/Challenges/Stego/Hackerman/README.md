@@ -7,7 +7,7 @@
 There should be something hidden inside this photo... Can you find out?
 
 ## Objetivo
-* Formato de flag: `HTB{s0m3_t3xt}``
+* Formato de flag: `HTB{s0m3_t3xt}`
 
 ## Herramientas
 * Chrome Versión 68.0.3440.106 (Build oficial) (64 bits) https://www.google.com/chrome/
