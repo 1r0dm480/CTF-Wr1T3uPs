@@ -48,7 +48,7 @@ Archive:  hackerman.zip
   inflating: hackerman.jpg           
 root@kali:~/Desktop/HTB/Stego/Hackerman#
 ```
-Podemos observar que guardaba un (1) archivo con extensión jpg. Realizamos el análisis inicial forense y el estegoanálisis de *hackerman.jpg*****:
+Podemos observar que guardaba un (1) archivo con extensión jpg. Realizamos el análisis inicial forense y el estegoanálisis de *hackerman.jpg*
 
 ```root@kali:~/Desktop/HTB/Stego/Hackerman/stego-toolkit/scripts# ./check_jpg.sh hackerman.jpg
 
