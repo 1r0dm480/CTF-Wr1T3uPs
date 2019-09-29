@@ -12,8 +12,7 @@
 * StegCracker 2.0.7 https://github.com/Paradoxis/StegCracker
 
 ## Writeup
-```bash
-root@1v4n:~/CTF/JASYPCTF2019/stego/perro_granted# stegcracker -V
+```root@1v4n:~/CTF/JASYPCTF2019/stego/perro_granted# stegcracker -V
 StegCracker 2.0.7 - (https://github.com/Paradoxis/StegCracker)
 Copyright (c) 2019 - Luke Paris (Paradoxis)
 
