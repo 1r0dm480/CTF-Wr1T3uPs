@@ -50,7 +50,8 @@ root@kali:~/Desktop/HTB/Stego/Hackerman#
 ```
 Podemos observar que guardaba un (1) archivo con extensión jpg. Realizamos el análisis inicial forense y el estegoanálisis de *hackerman.jpg*
 
-```root@kali:~/Desktop/HTB/Stego/Hackerman/stego-toolkit/scripts# ./check_jpg.sh hackerman.jpg
+```bash
+root@kali:~/Desktop/HTB/Stego/Hackerman/stego-toolkit/scripts# ./check_jpg.sh hackerman.jpg
 
 #################################
 ########## JPG CHECKER ##########
@@ -233,7 +234,8 @@ Nothing found...
 ```
 Pasamos a analizar el hash `5634275d694f8665957746c9619132f0` que obtenemos con la herramienta *hasher*
 
-```root@kali:~/Desktop/HTB/Stego/Hackerman/hasher# python2 hash.py
+```bash
+root@kali:~/Desktop/HTB/Stego/Hackerman/hasher# python2 hash.py
               Hash Cracker 3.0.1
   ------------------------------------------
   88  88    db    .dP"Y8 88  88 88888 88""Yb
@@ -257,8 +259,9 @@ Pasamos a analizar el hash `5634275d694f8665957746c9619132f0` que obtenemos con 
 [=] password found
 [+] 5634275d694f8665957746c9619132f0 0={==> almost
 ```
-Ya he conseguido la clave para extraer el secreto de la imagen. Pasamos *steghide*
-```root@kali:~/Desktop/HTB/Stego/Hackerman# steghide info hackerman.jpg
+Ya hemos conseguido la clave para extraer el secreto de la imagen. Pasamos *steghide*
+```bash
+root@kali:~/Desktop/HTB/Stego/Hackerman# steghide info hackerman.jpg
 "hackerman.jpg":
   formato: jpeg
   capacidad: 5,8 KB
