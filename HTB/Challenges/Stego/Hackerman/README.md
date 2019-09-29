@@ -21,13 +21,13 @@ googler 3-6
 * https://gchq.github.io/CyberChef/
 
 ## Resumen
-Comenzamos por visitar la página del reto y descargamos el archivo comprimido .zip que nos dan como artefacto y que tiene la password *hackthebox*
+Comenzamos por visitar la página del reto y descargamos el archivo comprimido .zip que nos dan como artefacto (password *hackthebox*)
 
 <p align="center">
 <img src="HTB-Challenge-Hackerman.png"/>
 </p>
 
-Descargamos en la parte inferior izquierda de la pantalla o utilizamos con wget la descarga del archivo llamado *DaVinci.zip*:
+Descargamos en la parte inferior izquierda de la pantalla o utilizamos con wget la descarga del archivo llamado *DaVinci.zip*
 
 ```bash
 root@kali:~/Desktop/HTB/Stego/Hackerman# wget https://www.hackthebox.eu/storage/challenges/stego/hackerman.zip
@@ -231,7 +231,7 @@ Nothing found...
 ##################################
 ./check_jpg.sh: línea 113: stegoveritas.py: no se encontró la orden
 ```
-Pasamos a analizar el hash 5634275d694f8665957746c9619132f0 que obtenemos con la herramienta *hasher*
+Pasamos a analizar el hash `5634275d694f8665957746c9619132f0` que obtenemos con la herramienta *hasher*
 
 ```root@kali:~/Desktop/HTB/Stego/Hackerman/hasher# python2 hash.py
               Hash Cracker 3.0.1
@@ -290,7 +290,6 @@ U0ZSQ2UwMHdia0JmVERGNlFGOGhjMTlFTTBCRWZRPT0=
 printf U0ZSQ2UwMHdia0JmVERGNlFGOGhjMTlFTTBCRWZRPT0= | base64 -d
 HTB{3v1l_c0rp}
 ```
-
 ### Flag
 
 La flag es: `HTB{3v1l_c0rp`
