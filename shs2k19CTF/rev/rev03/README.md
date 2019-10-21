@@ -81,6 +81,9 @@ root@1v4n:~/CTF/SHS2K19/rev/rev03_GRANTED# ./get_flag.sh
 Mmm, noperoot@1v4n:~/CTF/SHS2K19/rev/rev03_GRANTED# cat flag
 shs2k19{4_l1ttle_m0r3_d1f1cult}
 ```
+<p align="center">
+<img src="shs2k19_rev03.gif"/>
+</p>
 
 
 ### Flag
