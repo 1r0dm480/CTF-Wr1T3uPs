@@ -99,7 +99,9 @@ root@1v4n:~/CTF/SHS2K19/forense/foc01# nano get_flag.sh
 #! /bin/bash
 
 cat 01_forense.txt | awk '/Body:/{getline;print}' | base64 -d | awk '/o]PCm/{getline;print}' | base64 -d > flag
-root@1v4n:~/CTF/SHS2K19/forense/foc01# cat flag
+root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# chmod +x get_flag.sh
+root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# ./get_flag.sh
+root@1v4n:~/CTF/SHS2K19/forense/foc01_GRANTED# cat flag
 shs2k19{m41l_f0r3ns1cs}
 ```
 
