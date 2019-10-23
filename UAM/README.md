@@ -10,3 +10,4 @@
 ## Write-ups
 
 * [Misión 002](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/UAM/UAM-Mision02)
+[Misión 006](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/UAM/UAM-Mision06)
