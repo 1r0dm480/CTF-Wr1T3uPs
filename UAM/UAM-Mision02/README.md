@@ -1,6 +1,6 @@
 # Write-up y Flag de UAM misión #002
 
-- [http://unaaldia.hispasec.com/2017/12/segunda-entrega-una-al-mes-mision-002.html](http://unaaldia.hispasec.com/2017/12/segunda-entrega-una-al-mes-mision-002.html ")
+- http://unaaldia.hispasec.com/2017/12/segunda-entrega-una-al-mes-mision-002.html
 
 - Texto:
 *"En esta misión Rick debe encontrar los datos ocultos en una imagen, pero tiene un problema, parece que no puede acceder a ella. Necesita tu ayuda..."*
