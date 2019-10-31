@@ -8,7 +8,7 @@
 </p>
 
 ## Tools
-* Firefox Version 60.7.0 https://www.mozilla.org/en-US/firefox/60.8.0/releasenotes/
+* Firefox Version 60.8.0 https://www.mozilla.org/en-US/firefox/60.8.0/releasenotes/
 * Baconian Cipher/Decipher http://rumkin.com/tools/cipher/baconian.php
 
 ## Writeup
