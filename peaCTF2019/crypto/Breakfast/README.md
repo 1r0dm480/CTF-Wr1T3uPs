@@ -76,3 +76,7 @@ We capitalize CTF >
 ### Flag
 
 `peaCTF{eggwaffles}`
+
+<p align="center">
+<img src="Breakfast_waffles.gif"/>
+</p>
