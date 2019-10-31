@@ -25,10 +25,10 @@ root@1v4n:~/CTF/peaCTF2019/crypto/Breakfast_GRANTED# cat enc.txt
 ```
 We use the rumkin online tool to decode the message >
 <p align="center">
-<img src="Breakfast_decode_peaCTF.png"/>
+<img src="Breakfast_decode_peaCTF2019.png"/>
 </p>
 
-or whit the mapper script
+or with the following python script
 
 ```python
 #! /usr/bin/python
