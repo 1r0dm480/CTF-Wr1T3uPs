@@ -20,7 +20,7 @@ root@1v4n:~/CTF/peaCTF2019/crypto/Breakfast# md5sum enc.txt
 ce9b5ebdbd28295013f084b5acd487e6  enc.txt
 root@1v4n:~/CTF/peaCTF2019/crypto/Breakfast# file enc.txt
 enc.txt: ASCII text
-root@1v4n:~/CTF/peaCTF2019/crypto/Breakfast_GRANTED# cat enc.txt
+root@1v4n:~/CTF/peaCTF2019/crypto/Breakfast# cat enc.txt
 011100010000000000101001000101{00100001100011010100000000010100101010100010010001
 ```
 We use the rumkin online tool to decode the message >
