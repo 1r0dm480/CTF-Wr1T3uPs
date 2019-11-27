@@ -18,9 +18,9 @@ Download the file called enc.txt (4fc5d4517a98bd97fede504d6f5e42bc) through the 
 root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard# wget https://shell1.2019.peactf.com/static/a993b6d91714b32556129ca0167b97ed/enc.txt
 root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard# md5sum enc.txt
 4fc5d4517a98bd97fede504d6f5e42bc  enc.txt
-root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard_GRANTED# file enc.txt
+root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard# file enc.txt
 enc.txt: ASCII text
-root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard_GRANTED# cat enc.txt
+root@1v4n:~/CTF/peaCTF2019/crypto/Broken_Keyboard# cat enc.txt
 112 101 97 67 84 70 123 52 115 99 49 49 105 115 99 48 48 108 125
 ```
 We use the ASCII online tool to decode the message >
