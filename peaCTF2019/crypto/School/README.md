@@ -1,10 +1,10 @@
 ## Description
-* **Name:** [Scholl](https://2019.peactf.com/problems)
+* **Name:** [School](https://2019.peactf.com/problems)
 * **Points:** 100
 * **Tag:** Crypto
 
 <p align="center">
-<img src="Schoold_peaCTF2019.png"/>
+<img src="School_peaCTF2019.png"/>
 </p>
 
 ## Tools
