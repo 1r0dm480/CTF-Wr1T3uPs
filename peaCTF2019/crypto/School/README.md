@@ -27,7 +27,7 @@ zswGXU{ljwdhsqmags}
 ```
 We use the AS online tool to decipher the message >
 <p align="center">
-<img src="school_decode_peaCTF2019.png"/>
+<img src="School_decode_peaCTF2019.png"/>
 </p>
 
 or with Cryptovenom python tool
