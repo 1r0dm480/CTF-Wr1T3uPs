@@ -13,7 +13,7 @@
 * Cryptovenom https://github.com/lockedbyte/cryptovenom
 
 ## Writeup
-Download the file called enc.txt (4fc5d4517a98bd97fede504d6f5e42bc) through the link where we find a [ASCII](https://ascii.cl/es/referencias.htm) code.
+Download the file called enc.txt (4fc5d4517a98bd97fede504d6f5e42bc) through the link where we find a cipher text.
 
 ```bash
 root@1v4n:~/CTF/peaCTF2019/crypto/School# wget https://shell1.2019.peactf.com/static/6999a90c2dc921d2e0de4720df921549/enc.txt
