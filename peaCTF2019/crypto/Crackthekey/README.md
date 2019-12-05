@@ -58,7 +58,7 @@ We use the [Vigenere online tool](https://www.guballa.de/vigenere-solver) to bre
 <img src="Crackthekey_break_peaCTF2019.png"/>
 </p>
 
-or we remove spaces, tabs, carriage returns and newlines. After we break de vigenere code with Vigenere-Cipher-Breaker python tool.
+or we eliminate new spaces and lines. Then we break the code of force with the python tool Vigenere-Cipher-Breaker.l.
 
 ```bash
 cat enc.txt | tr -d '\040\011\012\015' > output.txt
