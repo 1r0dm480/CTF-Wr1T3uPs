@@ -53,7 +53,7 @@ EBIPNXHTHLAFFXKXVTXOAPFKZRXQTDRVTWTWIKJALIPBYTDEPRDPEGBQGXICVTXZVADHLRZOITOXGSSA
 KLHBCFYAAAJWHVRWIPRMRHJYHSPWWDORXHTGTRLYIVBIYPPPSOSUBFHNWAHTWTZVUYEUSOEEZXCRWAUIENAVH
 EPCORWMIUHXREKXCR
 ```
-We use the Vigenere online tool to break the message >
+We use the [Vigenere online tool](https://www.guballa.de/vigenere-solver) to break the message >
 <p align="center">
 <img src="Crackthekey_break_peaCTF2019.png"/>
 </p>
@@ -66,7 +66,7 @@ root@1v4n:~/CTF/peaCTF2019/crypto/School# git clone https://github.com/drewp41/V
 root@1v4n:~/CTF/peaCTF2019/crypto/School/Vigenere-Cipher-Breaker# python Vigenere_cipher.py
 Enter e to encrypt, or d to decrypt: d
 Enter ciphertext to decrypt:
-...
+...(output.txt)
 Do you know the key to decrypt with? Enter y or n: n
 Key length is most likely 13
 Key: redpineapples
