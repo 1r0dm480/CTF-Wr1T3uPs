@@ -5,7 +5,7 @@
 * **Team:** [Gh0st in th3 Cloud H3ll](https://ctf.h-c0n.com/teams/46) Note: *Thanks to Sedekt (aka E4gl3) && lilivx*
 
 <p align="center">
-<img src="hc0n2020quals-Challenge-Crypto-Kojo_No_Mai"/>
+<img src="hc0n2020quals-Challenge-Crypto-Kojo_No_Mai.png"/>
 </p>
 
 ## Tools
