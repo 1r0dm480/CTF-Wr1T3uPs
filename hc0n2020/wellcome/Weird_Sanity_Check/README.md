@@ -14,7 +14,7 @@
 * The Ook and Brainfuck Encoder/Decoder https://github.com/splitbrain/ook
 
 ## Writeup
-Inspectect the code with Firefox *Ctrl+Shift+C*. We found a hidden string encoded in Base32 Hide table using *style = "display: none*. Which in turn hides another obfuscated chain with an esoteric programming language called ["Brainfuck"] (https://esolangs.org/wiki/Brainfuck).
+Inspectect the code with Firefox *Ctrl+Shift+C*. We found a hidden string encoded in Base32 Hide table using [<div style="display:none">](https://stackoverflow.com/questions/6910349/hiding-table-data-using-div-style-displaynone). Which in turn hides another obfuscated chain with an esoteric programming language called ["Brainfuck"] (https://esolangs.org/wiki/Brainfuck).
 ```html
 ...
 <p>Welcome to h-c0n qualifier CTF 2020!<br>
