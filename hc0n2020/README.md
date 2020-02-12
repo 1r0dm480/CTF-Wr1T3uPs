@@ -14,3 +14,4 @@
 ## Write-ups
 
 * [Kojo No Mai](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/hc0n2020/Crypto/Kojo_No_Mai)
+* [Weird Sanity Check](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/hc0n2020/wellcome/Weird_Sanity_Check)
