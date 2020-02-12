@@ -30,7 +30,8 @@ kojonomai.txt?token 100%[===================>]     318  --.-KB/s    en 0s
 2020-01-11 08:21:33 (4,70 MB/s) - “kojonomai.txt?token=eyJ1c2VyX2lkIjoxMjEsInRlYW1faWQiOjQ2LCJmaWxlX2lkIjo1fQ.Xhl3Hg.z74IbdjUOPkNijCuSg81uEeS9as” guardado [318/318]
 
 root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# mv kojonomai.txt\?token\=eyJ1c2VyX2lkIjoxMjEsInRlYW1faWQiOjQ2LCJmaWxlX2lkIjo1fQ.Xhl3Hg.z74IbdjUOPkNijCuSg81uEeS9as  kokonamai.txt
-
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# md5sum kokonamai.txt
+690f5c247a952ffe701a889df6eea934  kokonamai.txt
 root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# file kokonamai.txt
 kokonamai.txt: ASCII text
 root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# cat kokonamai.txt
@@ -94,8 +95,8 @@ coefficient: 1068522397815640241 (0xed42775a45990b1)
 We separate each line encrypted and coded in base64 into separate files. To decipher our splitted flag
 
 ```bash
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# cat kokonamai.txt | sed 1,4d >> cipher.enc
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# cat cipher.enc
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# cat kokonamai.txt | sed 1,4d >> cipher.enc
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# cat cipher.enc
 XnZvSmNqZqz+N5LL+ec6XA==
 k4TD9AHouSlxdn97PXfmOg==
 FhHp7W1orCt78mlz5PNGBQ==
@@ -104,7 +105,7 @@ XCWOYhWFC6v3wa3qM58v5g==
 qlLYhsaMWbOvCXddqsQ/pA==
 i1jClSfyTf8XLiT57Su6IQ==
 DZbTy4vMKW0WqjrD7CspMg==
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# cat cipher.enc | base64 -d | xxd
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# cat cipher.enc | base64 -d | xxd
 00000000: 5e76 6f4a 636a 66ac fe37 92cb f9e7 3a5c  ^voJcjf..7....:\
 00000010: 9384 c3f4 01e8 b929 7176 7f7b 3d77 e63a  .......)qv.{=w.:
 00000020: 1611 e9ed 6d68 ac2b 7bf2 6973 e4f3 4605  ....mh.+{.is..F.
@@ -121,29 +122,29 @@ root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# cat cipher.enc | base64 -d 
 000000d0: aa52 d886 c68c 59b3 af09 775d aac4 3fa4  .R....Y...w]..?.
 000000e0: 8b58 c295 27f2 4dff 172e 24f9 ed2b ba21  .X..'.M...$..+.!
 000000f0: 0d96 d3cb 8bcc 296d 16aa 3ac3 ec2b 2932  ......)m..:..+)2
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "XnZ" cipher.enc | base64 -d > enc1.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "k4T" cipher.enc | base64 -d > enc2.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "FhH" cipher.enc | base64 -d > enc3.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "a5F" cipher.enc | base64 -d > enc4.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "XCW" cipher.enc | base64 -d > enc5.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "qlL" cipher.enc | base64 -d > enc6.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "i1j" cipher.enc | base64 -d > enc7.raw
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# grep "DZb" cipher.enc | base64 -d > enc8.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "XnZ" cipher.enc | base64 -d > enc1.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "k4T" cipher.enc | base64 -d > enc2.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "FhH" cipher.enc | base64 -d > enc3.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "a5F" cipher.enc | base64 -d > enc4.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "XCW" cipher.enc | base64 -d > enc5.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "qlL" cipher.enc | base64 -d > enc6.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "i1j" cipher.enc | base64 -d > enc7.raw
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# grep "DZb" cipher.enc | base64 -d > enc8.raw
 root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc1.raw -hexdump
 0000 - 48 2d 63 30 6e                                    H-c0n
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc3.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc3.raw -hexdump
 0000 - 36 63 32 65 62                                    6c2eb
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc4.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc4.raw -hexdump
 0000 - 34 39 61 32 66                                    49a2f
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc5.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc5.raw -hexdump
 0000 - 34 32 37 65 35                                    427e5
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc6.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc6.raw -hexdump
 0000 - 37 63 37 31 35                                    7c715
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc7.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc7.raw -hexdump
 0000 - 62 64 61 38 33                                    bda83
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# openssl rsautl -decrypt -inkey private.pem -in enc8.raw -hexdump
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# openssl rsautl -decrypt -inkey private.pem -in enc8.raw -hexdump
 0000 - 39 65 36 7d                                       9e6}
-root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai_GRANTED# buster -s 1aa36c2eb49a2f427e57c715bda839e6
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# buster -s 1aa36c2eb49a2f427e57c715bda839e6
 _  _ ____ ____ _  _    ___  _  _ ____ ___ ____ ____
 |__| |__| [__  |__|    |__] |  | [__   |  |___ |__/
 |  | |  | ___] |  |    |__] |__| ___]  |  |___ |  \  v3.0
