@@ -14,8 +14,10 @@
 * The Ook and Brainfuck Encoder/Decoder https://github.com/splitbrain/ook
 
 ## Writeup
-Inspectect the code with Firefox *Ctrl+Shift+C*. Our hint: **Welcome to h-c0n qualifier CTF 2020! Each flag will follow the format "H-c0n{" + MD5 + "}". Here is your weird welcome flag:**
+Inspectect the code with Firefox *Ctrl+Shift+C*.
+
 ```html
+...
 <p>Welcome to h-c0n qualifier CTF 2020!<br>
 Each flag will follow the format <b>"H-c0n{" + MD5 + "}"</b>.<br>
 <br>
