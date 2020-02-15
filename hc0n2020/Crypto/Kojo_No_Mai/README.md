@@ -14,10 +14,9 @@
 * OpenSSL https://github.com/openssl/openssl/releases/tag/OpenSSL_1_1_1d
 
 ## Writeup
-Download the file called kokonamai.txt (xxx) with a ASCII text. We detect an encrypted text splitted into smaller pieces and then encrypted with weak RSA.[Hybryd Encryption](https://stackoverflow.com/questions/13356656/split-data-to-smaller-pieces-then-encrypt-with-rsa)
+Download the file called kokonamai.txt (690f5c247a952ffe701a889df6eea934) with a ASCII text. We detect an encrypted text splitted into smaller pieces and then encrypted with weak RSA.[Hybryd Encryption](https://stackoverflow.com/questions/13356656/split-data-to-smaller-pieces-then-encrypt-with-rsa)
 ```bash
-https://ctf.h-c0n.com/challenges#Kojo%20No%20Mai
-oot@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# wget https://ctf.h-c0n.com/files/7f923f1c0fc504b79b0a41f91f590a49/kojonomai.txt?token=eyJ1c2VyX2lkIjoxMjEsInRlYW1faWQiOjQ2LCJmaWxlX2lkIjo1fQ.Xhl3Hg.z74IbdjUOPkNijCuSg81uEeS9as
+root@1v4n:~/CTF/hc0n2020/Crypto/Kojo_No_Mai# wget https://ctf.h-c0n.com/files/7f923f1c0fc504b79b0a41f91f590a49/kojonomai.txt?token=eyJ1c2VyX2lkIjoxMjEsInRlYW1faWQiOjQ2LCJmaWxlX2lkIjo1fQ.Xhl3Hg.z74IbdjUOPkNijCuSg81uEeS9as
 --2020-01-11 08:21:32--  https://ctf.h-c0n.com/files/7f923f1c0fc504b79b0a41f91f590a49/kojonomai.txt?token=eyJ1c2VyX2lkIjoxMjEsInRlYW1faWQiOjQ2LCJmaWxlX2lkIjo1fQ.Xhl3Hg.z74IbdjUOPkNijCuSg81uEeS9as
 Resolviendo ctf.h-c0n.com (ctf.h-c0n.com)... 82.98.177.116
 Conectando con ctf.h-c0n.com (ctf.h-c0n.com)[82.98.177.116]:443... conectado.
