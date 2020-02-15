@@ -11,7 +11,6 @@
 ## Tools
 * Firefox 68.2.0esr https://www.mozilla.org/en-US/firefox/68.2.0/releasenotes/
 * ViperMonkey https://github.com/decalage2/ViperMonkey
-* Stego Tool Kit https://github.com/DominicBreuker/stego-toolkit
 * BPStegano https://github.com/TapanSoni/BPStegano
 
 ## Writeup
@@ -471,7 +470,7 @@ VBA Builtins Called: ['Array', 'Chr', 'CreateObject', 'LBound', 'Print', 'Run', 
 
 Finished analyzing babymaldoc.vba .
 ```
-We analyze the URL to which the shell invokes and download a suspicious .png file that Stego has with the BPStegano and the SALCHICHON pass.
+We analyze the URL to which the shell invokes and download a suspicious .png file that Stego has with the [BPStegano](https://github.com/TapanSoni/BPStegano) and the SALCHICHON pass.
 
 ```bash
 root@1v4n:~/CTF/hc0n2020/Forense/Baby_maliciosus# http https://bit.ly/2NgCC0O
@@ -557,7 +556,7 @@ w^Ls
 IEND
 ```
 <p align="center">
-<img src="whereisyourgood.png"/>
+<img src="whereisyourgod.png"/>
 </p>
 
 ```bash
