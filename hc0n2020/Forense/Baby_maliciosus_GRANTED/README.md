@@ -1,7 +1,7 @@
 ## Description
 * **Name:** [Baby malicious](https://ctf.h-c0n.com/challenges#Baby%20malicious)
 * **Points:** 200
-* **Tag:** Crypto
+* **Tag:** Forensics
 * **Team:** [Gh0st in th3 Cloud H3ll](https://ctf.h-c0n.com/teams/46) Note: *Thanks to Sedekt (aka E4gl3) && lilivx*
 
 <p align="center">
