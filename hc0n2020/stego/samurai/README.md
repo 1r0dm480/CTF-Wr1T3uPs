@@ -116,7 +116,7 @@ root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted# steghide info wind.wav
   formato: wave audio, PCM encoding
   capacidad: 40,4 KB
 �Intenta informarse sobre los datos adjuntos? (s/n) s
-Anotar salvoconducto: 
+Anotar salvoconducto:
 steghide: �no pude extraer ning�n dato con ese salvoconducto!
 root@1v4n:~/CTF/hc0n2020/stego# pngcheck -vtp7f samurai.png
 File: samurai.png (439822 bytes)
@@ -168,11 +168,11 @@ _  _ ____ ____ _  _    ___  _  _ ____ ___ ____ ____
 
 [!] Hash function : MD5
 ninja
-
+```
 ### Flag
 
 `H-c0n{3899dcbab79f92af727c2190bbd8abc5}`
 
 <p align="center">
-<img src="hc0n2020quals-Challenge-Stego-samurai-meme.png"/>
+<img src="hc0n2020quals-Challenge-Stego-samurai-meme.png">
 </p>
