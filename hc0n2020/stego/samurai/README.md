@@ -49,7 +49,7 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
 
 
   Scan Time:     2020-01-
-  Target File:   /root/CTF/hc0n2020/stego/_samurai.png-0.extracted/29
+  Target File:   /root/CTF/hc0n2020/stego/_samurai.png.extracted/29
   MD5 Checksum:  d41d8cd98f00b204e9800998ecf8427e
   Signatures:    391
 
@@ -65,7 +65,7 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
   DECIMAL       HEXADECIMAL     DESCRIPTION
   -------------------------------------------------------------------------------
 ```
-We detect a spectogram with the string "SHINOBI" in the win.wav (04416be5a3ab8ef0248150158095ff97) WAV audio file.
+We detect a spectogram with the string "SHINOBI" in the wind.wav (04416be5a3ab8ef0248150158095ff97) WAV audio file.
 
 ```bash
 root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted#
