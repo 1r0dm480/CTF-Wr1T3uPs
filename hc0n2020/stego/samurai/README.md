@@ -35,7 +35,7 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
   6b5cc wind.wav
   root@1v4n:~/CTF/hc0n2020/stego# binwalk -Me samurai.png
 
-  Scan Time:     2020-01-19 17:18:10
+  Scan Time:     2020-01-
   Target File:   /root/CTF/hc0n2020/stego/samurai.png
   MD5 Checksum:  3b372f42d7cae06d04f44eb8490038ef
   Signatures:    391
@@ -48,7 +48,7 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
   439800        0x6B5F8         End of Zip archive, footer length: 22
 
 
-  Scan Time:     2020-01-19 17:18:10
+  Scan Time:     2020-01-
   Target File:   /root/CTF/hc0n2020/stego/_samurai.png-0.extracted/29
   MD5 Checksum:  d41d8cd98f00b204e9800998ecf8427e
   Signatures:    391
@@ -57,8 +57,8 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
   --------------------------------------------------------------------------------
 
 
-  Scan Time:     2020-01-19 17:18:10
-  Target File:   /root/CTF/hc0n2020/stego/_samurai.png-0.extracted/wind.wav
+  Scan Time:     2020-01-
+  Target File:   /root/CTF/hc0n2020/stego/_samurai.png.extracted/wind.wav
   MD5 Checksum:  04416be5a3ab8ef0248150158095ff97
   Signatures:    391
 
@@ -68,14 +68,6 @@ root@1v4n:~/CTF/hc0n2020/stego# strings -n 7 -t x samurai.png
 We detect a spectogram with the string "SHINOBI" in the win.wav (04416be5a3ab8ef0248150158095ff97) WAV audio file.
 
 ```bash
-root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted# ls -la
-total 2008
-drwxr-xr-x 2 root root    4096 ene 19 17:18 .
-drwxr-xr-x 4 root root    4096 ene 19 17:18 ..
--rw-r--r-- 1 root root  278716 ene 19 17:18 27552.zip
--rw-r--r-- 1 root root       0 ene 19 17:18 29
--rw-r--r-- 1 root root  439781 ene 19 17:18 29.zlib
--rw-r--r-- 1 root root 1322620 dic 29 00:49 wind.wav
 root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted#
 root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted# md5sum wind.wav
 04416be5a3ab8ef0248150158095ff97  wind.wav
@@ -91,15 +83,6 @@ Alternatively we can automatically generate spectrograms for one or more audio f
 
 ```bash
 root@1v4n:~/CTF/hc0n2020/stego# sox wind.wav -n spectrogram
-root@1v4n:~/CTF/hc0n2020/stego/_samurai.png.extracted# ls -la
-total 2168
-drwxr-xr-x 2 root root    4096 ene 19 17:21 .
-drwxr-xr-x 4 root root    4096 ene 19 17:18 ..
--rw-r--r-- 1 root root  278716 ene 19 17:18 27552.zip
--rw-r--r-- 1 root root       0 ene 19 17:18 29
--rw-r--r-- 1 root root  439781 ene 19 17:18 29.zlib
--rw-r--r-- 1 root root  162803 ene 19 17:21 spectrogram.png
--rw-r--r-- 1 root root 1322620 dic 29 00:49 wind.wav
 root@1v4n:~/CTF/hc0n2020/stego/samurai_GRANTED/_samurai.png.extracted# md5sum spectrogram.png
 108c28dfae99fcd7d8b080aac7c42bb0  spectrogram.png
 root@1v4n:~/CTF/hc0n2020/stego/samurai_GRANTED/_samurai.png.extracted#
