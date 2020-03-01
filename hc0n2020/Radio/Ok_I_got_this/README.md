@@ -1,8 +1,7 @@
 ## Description
-* **Name:** [Ok, I got this]https://ctf.h-c0n.com/challenges#Ok,%20I%20got%20this)
+* **Name:** [Ok, I got this](https://ctf.h-c0n.com/challenges#Ok,%20I%20got%20this)
 * **Points:** 200
 * **Tag:** Radio
-* **Author** [_mgp25](https://twitter.com/_mgp25)
 * **Team:** [Gh0st in th3 Cloud H3ll](https://ctf.h-c0n.com/teams/46) Note: *Thanks to Sedekt (aka E4gl3) && lilivx*
 
 <p align="center">
@@ -14,7 +13,7 @@
 * Audacity v2.3.3 https://www.audacityteam.org/download/
 
 ## Writeup
-Download the file called captured.wav (b8ca4b81cd3c328e700cffde5d2739f0) with a WAV audio file. We detect an audio with 0,61s and 2Mhz intercepted with RTL-SDR called [Yardstick One](https://greatscottgadgets.com/yardstickone/)
+Download the file called captured.wav (b8ca4b81cd3c328e700cffde5d2739f0) with a WAV audio file. We detect an audio with 0,61s duration and 2Mhz frecuency intercepted with RTL-SDR called [Yardstick One](https://greatscottgadgets.com/yardstickone/)
 ```bash
 root@1v4n:~/CTF/hc0n2020/Radio/Ok_I_got_this# md5sum captured.wav
 b8ca4b81cd3c328e700cffde5d2739f0  captured.wav
@@ -49,6 +48,7 @@ root@1v4n:~/CTF/hc0n2020/Radio/Ok_I_got_this_GRANTED# audacity captured.wav
 <img src="hc0n2020quals-Challenge-Radio-Ok_I_got_this_audacity.png"/>
 </p>
 
+We decoded de binary to ASCII (https://stackoverflow.com/questions/7396849/convert-binary-to-ascii-and-vice-versa)
 ```python
 >>> n = int('0b010101000110100001100101001000000110011001101100011000010110011100100000011010010111001100100000010010000010110101100011001100000110111001111011001100100011001100110010001101100110001101100110001100110011011001100010001110000011010000110111001100110110010000110110001100010011000101100100001101000011010000111001011001100011000100110001001101110110010000110000001110010011001100111001001110010110011001111101',2)
 >>> n.to_bytes((n.bit_length() + 7) // 8, 'big').decode()
