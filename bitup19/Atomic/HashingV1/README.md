@@ -1,5 +1,5 @@
 ## Description
-* **Name:** Hashing V1
+* **Name:** [Hashing V1](https://ctf.bitupalicante.com/challenges#Hashing%20V1)
 * **Points:** 10
 * **Tags:** Hashing, Atomic
 
