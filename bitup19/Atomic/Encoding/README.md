@@ -14,8 +14,7 @@
 ## Writeup
 
 ```python
-
-!/usr/bin/python3
+#!/usr/bin/python3
 
 try:
     import base64
