@@ -4,7 +4,7 @@
 * **Tags:** Hashing, Atomic
 
 <p align="center">
-<img src="bitup2019-Challenge-Atomic-Hashing_V1"/>
+<img src="bitup2019-Challenge-Atomic-Hashing_V1.png"/>
 </p>
 
 ## Tools
