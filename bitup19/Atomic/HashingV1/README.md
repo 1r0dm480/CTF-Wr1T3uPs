@@ -4,13 +4,15 @@
 * **Tags:** Hashing, Atomic
 
 <p align="center">
-<img src="hc0n2020quals-Challenge-Wellcome_Weird_Sanity_Check_.png"/>
+<img src="bitup2019-Challenge-Atomic-Hashing_V1"/>
 </p>
 
 ## Tools
 * Firefox 68.2.0esr https://www.mozilla.org/en-US/firefox/68.2.0/releasenotes/
+* Python 3 https://www.python.org/download/releases/3.0/
 
 ## Writeup
+
 ```python
 #!/usr/bin/python3
 
@@ -39,3 +41,7 @@ exit()
 ### Flag
 
 `bitup19{4b73227876a85c38f875b12ffdb1deb375c98666}`
+
+<p align="center">
+<img src="bitup2019-Challenge-Atomic-Hashing_V1.gif"/>
+</p>

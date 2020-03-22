@@ -14,4 +14,4 @@
 
 ## Write-ups
 
-* 
+* [Hashing_V1](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/bitup19/Atomic/HashingV1)
