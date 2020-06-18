@@ -9,7 +9,7 @@
 
 ## Tools
 * Firefox 68.2.0esr https://www.mozilla.org/en-US/firefox/68.2.0/releasenotes/
-* xxd xxd V1.10 27oct98 by Juergen Weigert
+* xxd V1.10 27oct98 by Juergen Weigert
 
 ## Writeup
 
@@ -29,7 +29,7 @@ File Name                       : beast
 Directory                       : .
 File Size                       : 28 kB
 File Modification Date/Time     : 2019:10:22 21:44:48+02:00
-File Access Date/Time           : 2020:06:18 22:17:15+02:00
+File Access Date/Time           : 
 File Inode Change Date/Time     : 2019:10:26 18:34:16+02:00
 File Permissions                : rw-r--r--
 Error                           : Unknown file type
@@ -54,9 +54,6 @@ root@1v4n:~/CTF/bitup19/Atomic/Magic_Words_GRANTED# xxd beast | head
 00000070: 3232 3232 3232 3232 3232 3232 3232 3232  2222222222222222
 00000080: 3232 3232 3232 3232 3232 3232 3232 3232  2222222222222222
 00000090: 3232 32ff c000 1108 019d 02ee 0301 2200  222..........."
-```
-
-```bash
 root@1v4n:~/CTF/bitup19/Atomic/Magic_Words_GRANTED# xxd <beast | sed '1 s/0101/ffd8/' | xxd -r >beast.jpg
 root@1v4n:~/CTF/bitup19/Atomic/Magic_Words_GRANTED# file beast.jpg
 beast.jpg: JPEG image data
