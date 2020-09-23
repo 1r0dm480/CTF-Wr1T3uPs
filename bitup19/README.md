@@ -17,3 +17,4 @@
 * [Hashing_V1](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/bitup19/Atomic/HashingV1)
 * [Encoding](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/bitup19/Atomic/Encoding)
 * [Magic Words](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/bitup19/Atomic/Magic_Words)
+* [Hide With Stego](https://github.com/1r0dm480/CTF-Wr1T3uPs/tree/master/bitup19/Stego/Hide_With_Stego)
